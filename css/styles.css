@@ -1,6 +1,9 @@
 header img{
  width: 100%;
 }
+* {
+    box-sizing: border-box;
+}
 
 nav {
     text-align: center;
@@ -21,3 +24,20 @@ nav a:hover{
 main{
     margin-left: 50px;
 }
+main.stories{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+   
+
+ .col img{
+    width: 100%;
+    opacity: 0.8;
+}
+.stories .col{
+    display: inline-block;
+    width: 30%;
+    margin: 20px 5px;
+    box-shadow: -5px 4px 6px black;
+} 
